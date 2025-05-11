@@ -1,0 +1,59 @@
+%! Author = Marjan
+%! Date = 11/05/2025
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}    % For math symbols and equations
+\usepackage{graphicx}   % For including graphics
+\usepackage{geometry}   % For adjusting page layout
+\usepackage{fancyhdr}   % For custom headers/footers
+\usepackage{hyperref}   % For hyperlinks
+\usepackage{listings}   % For code listing
+\usepackage{lipsum}     % For placeholder text (to test layout)
+\usepackage{helvet}
+\usepackage{arydshln}
+\usepackage{tikz}        % For creating diagrams and drawing
+\usepackage{pgfplots}    % For plotting graphs
+\usepackage{wasysym}
+\usepackage{float}
+\usepackage{coptic}
+
+%\usepackage{amstex} % Helvetica as a sans-serif font alternative
+\renewcommand{\rmdefault}{phv} % Set the default font family to Helvetica
+
+% Set page margins (A4 paper)
+\geometry{top=1in, bottom=1in, left=1in, right=1in}
+
+% Set up the header
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Statistics Notes}
+\fancyhead[C]{Your Name}
+\fancyhead[R]{\thepage}
+
+% Document
+\begin{document}
+% Title Page
+    \begin{titlepage}
+        \centering
+        \vspace*{2in}
+        \Huge \textbf{Statistics Notes}
+        \vfill
+        \Large Your Name
+        \vfill
+        \Large Date: \today
+    \end{titlepage}
+
+    \newpage
+
+    \tableofcontents
+    \newpage
+
+
+    \chapter{Course Introduction}
+    Some notes on statistics. Applied to finance.
+
+
+\end{document}
